@@ -1,4 +1,25 @@
 body {
-  background-color: azure;
+  background-color: #EEEEEE;
   font-size: 0.875rem;
+  position:center;
+}
+
+#nav-home {
+
+  background-color: white;
+}
+
+.personalData-shadow {
+  border-radius: 0.5em;
+  box-shadow:
+    -12px -12px 12px 0 rgba(255, 255, 255, 1),
+      12px 12px 12px 0 rgba(0, 0, 0, .2),
+      12px 12px 12px 0 rgba(0, 0, 0, .2);
+}
+
+.img-shadow{
+  border-radius: 0.2em;
+  box-shadow:
+      -12px -12px 12px 0 rgba(255, 255, 255, 0.8),
+      12px 12px 12px 0 rgba(0, 0, 0, .2);
 }
