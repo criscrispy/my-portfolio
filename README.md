@@ -1,2 +1,3 @@
 # simple-resume-v2
-Simple resume (version 2)
+Simple resume (version 2) 
+In progress...
