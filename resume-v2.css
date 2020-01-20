@@ -18,7 +18,18 @@ body {
 	box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.8), 12px 12px 12px 0 rgba(0, 0, 0, .2);
 }
 
-
 nav > div > a {
 	color: #17a2b8;
 }
+
+/* .language-table td {
+	border-top: unset;
+} */
+
+.language-name {
+	width: 30%;
+}
+
+/* .language-tbody {
+	border-top: unset;
+} */
