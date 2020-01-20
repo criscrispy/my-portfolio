@@ -30,6 +30,18 @@ nav > div > a {
 	width: 30%;
 }
 
-/* .language-tbody {
-	border-top: unset;
-} */
+/*Zoom out animation for icons in personal data, personality and hobbies sections */
+.icons:hover {
+	-ms-transform: scale(1.3); /* IE 9 */
+	-webkit-transform: scale(1.3); /* Safari 3-8 */
+	transform: scale(1.3);
+	transition: transform .5s ease-in-out;
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.icons {
+	-ms-transform: scale(1); /* IE 9 */
+	-webkit-transform: scale(1); /* Safari 3-8 */
+	transform: scale(1);
+	transition: transform .5s ease-out;
+}
