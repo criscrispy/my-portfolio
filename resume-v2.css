@@ -26,8 +26,15 @@ nav > div > a {
 	border-top: unset;
 } */
 
-.language-name {
-	width: 30%;
+/* home-items include career vision and journey so far, personality tags, languages and hobbies  */
+.home-items:hover {
+	background-color: #dfdbdfad;
+	border-radius: 1rem;
+	max-width: inherit;
+}
+
+.home-items figcaption {
+	font-size: 0.78rem;
 }
 
 /*Zoom out animation for icons in personal data, personality and hobbies sections */
@@ -36,7 +43,6 @@ nav > div > a {
 	-webkit-transform: scale(1.3); /* Safari 3-8 */
 	transform: scale(1.3);
 	transition: transform .5s ease-in-out;
-	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .icons {
