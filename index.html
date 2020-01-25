@@ -31,7 +31,7 @@
         <div class="rounded personalData-shadow px-0 mx-auto mt-md-5 col-md-3 align-self-start">
           <!-- Item 1 -->
             <div class="m-2 d-flex justify-content-center">
-                <img src="Linkedin profile pic.jpg" class="rounded-circle mx-auto img-fluid img-shadow" alt="Responsive image">
+                <img src="Linkedin profile pic.jpg" class="rounded-circle mx-auto img-fluid img-shadow img-colorize" alt="Responsive image">
             </div>
             <!--End of Item 1  -->
 
@@ -71,9 +71,11 @@
             <nav>
               <div class="nav nav-tabs justify-content-around" id="nav-tab" role="tablist">
                 <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+                <a class="nav-item nav-link" id="nav-experience-tab" data-toggle="tab" href="#nav-experience" role="tab" aria-controls="nav-experience" aria-selected="false">Experience</a>
                 <a class="nav-item nav-link" id="nav-education-tab" data-toggle="tab" href="#nav-education" role="tab" aria-controls="nav-education" aria-selected="false">Education</a>
                 <a class="nav-item nav-link" id="nav-skills-tab" data-toggle="tab" href="#nav-skills" role="tab" aria-controls="nav-skills" aria-selected="false">Skills</a>
-                <a class="nav-item nav-link" id="nav-experience-tab" data-toggle="tab" href="#nav-experience" role="tab" aria-controls="nav-experience" aria-selected="false">Experience</a>
+                <a class="nav-item nav-link" id="nav-projects-tab" data-toggle="tab" href="#nav-projects" role="tab" aria-controls="nav-projects" aria-selected="false">Projects</a>
+                <a class="nav-item nav-link" id="nav-achievements-tab" data-toggle="tab" href="#nav-achievements" role="tab" aria-controls="nav-achievements" aria-selected="false">Other Achievements</a>
               </div>
             </nav>
             <div class="tab-content" id="nav-tabContent">
@@ -123,25 +125,25 @@
                    <!-- Hobbies -->
                    <div class="home-items">
                      <h6 class="text-center">Hobbies</h6>
-                        <div class="row text-center align-items justify-content-around">
+                        <div class="row text-center justify-content-around">
                       <figure class="col-2">
-                        <img class="icons" src="https://img.icons8.com/ios/25/000000/reading.png" alt="Reading icon by Icons8">
+                        <img class="icons" src="https://img.icons8.com/ios/30/000000/reading.png" alt="Reading icon by Icons8">
                         <figcaption>Reading</figcaption>
                       </figure>
                       <figure class="col-2">
-                        <img class="icons" src="https://img.icons8.com/ios/25/000000/browse-podcasts.png" alt="Browse-podcasts icon by Icons8">
+                        <img class="icons" src="https://img.icons8.com/ios/30/000000/browse-podcasts.png" alt="Browse-podcasts icon by Icons8">
                         <figcaption>Listening to podacst</figcaption>
                       </figure>
                       <figure class="col-2">
-                        <img class="icons" src="https://img.icons8.com/ios/25/000000/musical-notes.png" alt="Musical-notes icon by Icons8">
+                        <img class="icons" src="https://img.icons8.com/ios/30/000000/musical-notes.png" alt="Musical-notes icon by Icons8">
                         <figcaption>Playing intruments</figcaption>
                       </figure>
                       <figure class="col-2">
-                        <img class="icons" src="https://img.icons8.com/ios/25/000000/football2.png" alt="Soccer Ball icon by Icons8">
+                        <img class="icons" src="https://img.icons8.com/ios/30/000000/football2.png" alt="Soccer Ball icon by Icons8">
                         <figcaption>Football</figcaption>
                       </figure>
                       <figure class="col-2">
-                        <img class="icons" src="https://img.icons8.com/ios/25/000000/controller.png" alt="Game Controller icon by Icons8">
+                        <img class="icons" src="https://img.icons8.com/ios/30/000000/controller.png" alt="Game Controller icon by Icons8">
                         <figcaption>Games</figcaption>
                       </figure>
                     </div>
@@ -152,26 +154,214 @@
 
               <!-- Education -->
               <div class="tab-pane fade rounded p-2 m-2 col-md-12 shadow" id="nav-education" role="tabpanel" aria-labelledby="nav-education-tab">
-                <div class="row justify-content-center p-2">
-                  <div class="col-md-12">
-                    <div class="card">
-                      <div class="card-body">
-                        <h6 class="card-title">Bachelor's Degree in Information Security</h6>
-                        <p class="card-title">Master of Science in Computer, Communications and Information Sciences</p>
-                        <h7 class="card-subtitle mb-2 text-muted">Sep. 2012 - Jun. 2016</h7>
-                        <ul>
-                          <li>The Bonch-Bruevich Saint-Petersburg State University of Telecommunications, St.Petersburg, Russia</li>
-                        </ul>
+                <div class="row justify-content-between mx-auto p-2">
+                  <div class="card education-items">
+                    <div class="card-body">
+                      <h6 class="card-title">Bachelor's Degree in Computer Science</h6>
+                      <h7 class="card-subtitle mb-2 text-muted">Sep. 2012 - Jun. 2016</h7>
+                      <ul>
+                        <li>The Bonch-Bruevich Saint-Petersburg State University of Telecommunications, Russia</li>
+                        <li>Major: Information Security</li>
+                      </ul>
                       </div>
                     </div>
+                  <div class="card education-items">
+                    <div class="card-body">
+                      <h6 class="card-title">Master's Degree<br>(Double degree scholarship programme)</h6>
+                      <p class="card-title">Master of Science in Computer, Communications and Information Sciences</p>
+                      <h7 class="card-subtitle mb-2 text-muted">Sep. 2016 - Nov. 2018</h7>
+                      <ul>
+                        <li>Aalto University, Espoo, Finland</li>
+                        <li>ITMO University, St. Petersburg, Russia</li>
+                        <li>Major: Security and Cloud computing</li>
+                      </ul>
+                    </div>
+                    </div>
+                </div>
+              </div>
+
+              <!-- Experience -->
+              <div class="tab-pane fade rounded p-2 m-2" id="nav-experience" role="tabpanel" aria-labelledby="nav-experience-tab">
+                <div class="row justify-content-start mx-auto p-2">
+                  <div class="card col-12 col-lg-5 experience-items align-self-start">
+                    <div class="card-body">
+                      <h6 class="card-title">Production specialist at <a href="https://swappie.com/en/">Swappie</a>, Helsinki, Finland
+                      </h6>
+                      <h6 class="card-subtitle mb-2 text-muted">Aug. 2019 - Nov. 2019</h6>
+                      <ul>
+                        <li>Main responsibilities included different tasks at inbound, checking and outbound stations as well as
+                          repairing
+                          different iPhone models.</li>
+                        <li>Media: 'This is Swappie' video on <a
+                            href="https://www.youtube.com/watch?v=WFl560Ij-IQ&feature=youtu.be">Youtube</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                            
+                  <div class="card col-12 col-lg-7 experience-items">
+                    <div class="card-body">
+                      <h6 class="card-title">Customer Support Engineer at <a href="https://www.crossover.com">Crossover</a> , Texas,
+                        USA.(Remote)</h6>
+                      <h6 class="card-subtitle mb-2 text-muted">Sept. 2018 - April. 2019</h6>
+                      <p>My responsibilities included</p>
+                      <ul>
+                        <li>Providing technical support for various products and technologies <br> by solving issues reported by
+                          customers in
+                          our ticketing system (Zendesk, SalesForce, JIRA)</li>
+                        <li>Conducting remote/troubleshooting sessions with customers.</li>
+                        <li>Phone support(Aircall)</li>
+                        <li>Log analyses</li>
+                        <li>Knowledge management/Technical writing.</li>
+                      </ul>
+                    </div>
+                  </div>
+                            
+                  <div class="card col-lg-6 experience-items">
+                    <div class="card-body">
+                      <h6 class="card-title">Editor and translator (Remote) at <a href="https://en.als.ltd/about">Abbyy Language
+                          Services</a>, Moscow, Russia (Remote)</h6>
+                      <h6 class="card-subtitle mb-2 text-muted">July 2017 - Sept. 2017</h6>
+                      <p>My responsibilities included:</p>
+                      <p>Editing and translation of documents of all kinds <br> including advertisements, contracts, theses, articles
+                        and
+                        books <br>(Russian-to-English Editing and Translation).</p>
+                    </div>
+                  </div>
+                            
+                  <div class="card col-lg-6 experience-items">
+                    <div class="card-body">
+                      <h6 class="card-title">English teacher at 3 Institutions, St. Petersburg, Russia</h6>
+                      <p>Check out this <a href="https://criscrispy.github.io/my-english-teaching-adventures-in-pictures/">gallery</a>
+                        to see
+                         my English teaching adventures </p>
+                      <h6 class="card-subtitle mb-2 text-muted">Oct. 2013 - May 2017</h6>
+                      <p>My responsibilities included:</p>
+                      <p>English lessons for kids, teenagers and adults from Beginner to Upper-Intermediate levels. <br>
+                        Special lessons for Medical doctors, veterinary doctors and Programmers.Team Leader and <br>
+                        English Teacher at Kids and Teenagers Camp.</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <!-- Skills -->
+              <div class="tab-pane fade rounded p-2 m-2 col-md-12 shadow" id="nav-skills" role="tabpanel" aria-labelledby="nav-skills-tab">
+                <div class="my-3 p-lg-2 skill-items">
+                  <h6 class="text-center">Technical Support Skills</h6>
+                  <div class="row text-center justify-content-center">
+                    <figure class="col-4 col-md-2">
+                      <img class="icons" src="https://img.icons8.com/wired/45/000000/admin-settings-male.png" alt="Admin settings male Icon by Icons8">
+                      <figcaption>IT adminstration</figcaption>
+                    </figure>
+                    <figure class="col-4 col-md-2">
+                      <img class="icons" src="https://img.icons8.com/wired/45/000000/online-support--v1.png" alt="Online support icon by icons8">
+                      <figcaption>Customer support</figcaption>
+                    </figure>
+                    <figure class="col-4 col-md-2">
+                      <img class="icons" src="https://img.icons8.com/wired/45/000000/office-365.png" alt="Office 365 icon by icons8">
+                      <figcaption>Office 365</figcaption>
+                    </figure>
+                    <figure class="col-4 col-md-2">
+                      <img class="icons" src="https://img.icons8.com/color/48/000000/azure-1.png" alt="Azure icon by icons8">
+                      <figcaption>Cloud computing(Azure)</figcaption>
+                    </figure>
+                    <figure class="col-4 col-md-2">
+                      <img class="icons" src="https://img.icons8.com/wired/45/000000/enterprise-resource-planning.png" alt="Enterprise resource planning icon by icons8">
+                      <figcaption>ERP systems</figcaption>
+                    </figure>
+                    <figure class="col-4 col-md-2">
+                      <img class="icons" src="https://img.icons8.com/wired/45/000000/hips.png" alt="Hips icon by icons8">
+                      <figcaption>Malware detection</figcaption>
+                    </figure>
+                    <figure class="col-4 col-md-2">
+                      <img class="icons" src="https://img.icons8.com/ios/45/000000/networking-manager.png" alt="Network configuration icon by icons8">
+                      <figcaption>Network configuration</figcaption>
+                    </figure> 
+                    <figure class="col-4 col-md-2">
+                      <img class="icons" src="https://img.icons8.com/ios/43/000000/phonelink-setup.png" alt="Hips icon by icons8">
+                      <figcaption>Basic iphone repair</figcaption>
+                    </figure>
+                  </div>
+                </div>
+
+                <div class="my-3 p-lg-2 skill-items">
+                  <h6 class="text-center">Programming / Web dev skills</h6>
+                  <div class="row text-center justify-content-center">
+                    <figure class="col-4 col-md-2">
+                      <img class="icons" src="https://img.icons8.com/color/ios/50/000000/html-5.png" title="HTML" alt="HTML 5 Icon by Icons8">
+                    </figure>
+                    <figure class="col-4 col-md-2">
+                      <img class="icons" src="https://img.icons8.com/color/ios/50/000000/css3.png" title="CSS" alt="CSS3 Icon by Icons8">
+                    </figure>
+                    <figure class="col-4 col-md-2">
+                      <img class="icons" src="https://img.icons8.com/color/ios/50/000000/javascript.png" title="Javascript" alt="Javascript Icon by Icons8">
+                    </figure>
+                    <figure class="col-4 col-md-2">
+                      <img class="icons" src="https://img.icons8.com/color/48/000000/bootstrap.png" title="Bootstrap" alt="Bootstrap Icon by Icons8">
+                    </figure>
                   </div>
                 </div>
               </div>
 
-
-              <div class="tab-pane fade" id="nav-skills" role="tabpanel" aria-labelledby="nav-skills-tab">...</div>
-              <div class="tab-pane fade" id="nav-experience" role="tabpanel" aria-labelledby="nav-experience-tab">...</div>
+              <!-- Projects -->
+            <div class="tab-pane fade rounded p-2 m-2 col-md-12 shadow" id="nav-projects" role="tabpanel" aria-labelledby="nav-projects-tab">
+              <div class="my-3 p-lg-2 project-items">
+                <h5 class="text-center">Web development projects</h5>
+                <table class="table table-sm text-center">
+                  <tbody>
+                    <tr>
+                      <td>Resume version 1.0 (HTML, CSS and Bootstrap 4) on <a href="https://criscrispy.github.io/simple-resume/">pages.github.com</a></td>
+                    </tr>
+                      <tr>
+                        <td>Javascript Tennis Game/Demo available on <a
+                            href="https://criscrispy.github.io/TENNIS-GAME-IN-JAVASCRIPT-AND-HTML/">pages.github.com</a> and code <a
+                            href="https://github.com/criscrispy/TENNIS-GAME-IN-JAVASCRIPT-AND-HTML">here</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Javascript Gamestore Available on <a href="https://calm-mountain-93740.herokuapp.com">Heroku.com</a></td>
+                       </tr>
+                    <tr>
+                      <td>Simple photo gallery(HTML, CSS and Bootstrap 4) on <a href="https://criscrispy.github.io/my-english-teaching-adventures-in-pictures/">pages.github.com</a></td>
+                    </tr>
+                  </tbody>
+                </table>
             </div>
+           </div>
+
+              <!-- Other Achievements -->
+            <div class="tab-pane fade rounded p-2 m-2 col-md-12 shadow" id="nav-achievements" role="tabpanel" aria-labelledby="nav-achievements-tab">
+              <div class="my-3 p-lg-2 achievement-section">
+                <h5 class="text-center">Other Achievements</h5>
+                  <table class="table table-sm">
+                    <tbody>
+                      <tr>
+                        <td>Jan 2018</td>
+                        <td><a href="https://goo.gl/VLYKh4">"Introducing Ghana"</a> presentation: "Get to know Africa" event at Aalto</td>
+                      </tr>
+                      <tr>
+                        <td>Nov 2017</td>
+                        <td class="text-break">Pitching competition in Reboot Finland(SLUSH 2017)/<a href="https://goo.gl/rmZju6">my pitch
+                            with teammate(40:05 - 44:38)</a>/Task Management application(VELI) for the FDF/Suomi100</td>
+                      </tr>
+                      <tr>
+                        <td>April,October 2017</td>
+                        <td>Co-author of a research document on Information security published in
+                          <a href="http://ieeexplore.ieee.org/document/8071333/">ieee xplore Digital Library</a> and
+                          <a href="https://www.fruct.org/publications/fruct20/files/Pan.pdf">FRUCT 2017</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+           </div>
+
+
+
+              </div>
+            </div>  
           </div>
+
+        </div>
+      </div>
   </body>
 </html>

@@ -4,19 +4,37 @@ body {
 	position: center;
 }
 
-#nav-home {
+/* Main content backround for home, experience, education */
+#nav-home,
+#nav-education,
+#nav-experience,
+#nav-skills,
+#nav-projects,
+#nav-achievements {
 	background-color: white;
 }
 
+/* Shadow around personal data div - Neomorphism */
 .personalData-shadow {
 	border-radius: 0.5em;
 	box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 1), 12px 12px 12px 0 rgba(0, 0, 0, .2);
 }
 
+/* Shadow around image - Neomorphism */
 .img-shadow {
 	border-radius: 0.2em;
 	box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.8), 12px 12px 12px 0 rgba(0, 0, 0, .2);
 }
+
+/* Image colorize and zoom out uon hover */
+/* .img-colorize {
+	transition: transform .5s, filter 1.5s ease-in-out;
+	filter: grayscale(100%);
+}
+.img-colorize:hover {
+	filter: grayscale(0);
+	transform: scale(1.04);
+} */
 
 nav > div > a {
 	color: #17a2b8;
@@ -50,4 +68,63 @@ nav > div > a {
 	-webkit-transform: scale(1); /* Safari 3-8 */
 	transform: scale(1);
 	transition: transform .5s ease-out;
+}
+
+/* Education */
+div.education-items {
+	border: 0px;
+	border-radius: 1rem;
+}
+
+div.education-items:hover {
+	background-color: #dfdbdfad;
+	border-radius: 1rem;
+}
+
+/* Experience */
+div.experience-items {
+	border: 0px;
+	border-radius: 1rem;
+	transition: transform 1s, filter 1s ease-in-out;
+	filter: blur(4px);
+	transform: scale(1);
+}
+
+div.experience-items:hover {
+	background-color: #dfdbdfad;
+	border-radius: 1rem;
+	filter: blur(0);
+	transform: scale(1.02);
+}
+
+/* Skills */
+div.skill-items {
+	border: 0px;
+	border-radius: 1rem;
+}
+
+div.skill-items:hover {
+	background-color: #dfdbdfad;
+	border-radius: 1rem;
+}
+/* Projects */
+div.project-items {
+	border: 0px;
+	border-radius: 1rem;
+}
+
+div.project-items:hover {
+	background-color: #dfdbdfad;
+	border-radius: 1rem;
+}
+
+/* Projects */
+div.achievement-section {
+	border: 0px;
+	border-radius: 1rem;
+}
+
+div.achievement-section:hover {
+	background-color: #dfdbdfad;
+	border-radius: 1rem;
 }
