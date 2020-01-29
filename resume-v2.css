@@ -29,22 +29,45 @@ body {
 /* Image colorize and zoom out on hover */
 /* .img-colorize {
 	transition: transform .5s, filter 1.5s ease-in-out;
-	filter: grayscale(100%);
+	filter: grayscale(90%);
 }
 .img-colorize:hover {
 	filter: grayscale(0);
-	transform: scale(1.04);
+	transform: scale(1.02);
 } */
-
-nav > div > a {
-	color: #17a2b8;
-}
 
 /* .language-table td {
 	border-top: unset;
 } */
 
-/* home-items include career vision and journey so far, personality tags, languages and hobbies  */
+/* Main nav styling for navbar and icons */
+/* Main nav border -- Removes line under main navbar */
+.main-nav {
+	border-bottom: 0px;
+}
+
+/* Remove background colour and border of 
+main navbar's anchor tags when active */
+.main-nav .nav-item.nav-link.active {
+	background-color: unset;
+	border: unset;
+}
+
+/* Remove background colour and border of main 
+navbar's anchor tags when active */
+.main-nav .nav-link {
+	border: unset;
+}
+
+/* Setting background colour around main navbar icons when active */
+.main-nav-icons.active img {
+	background-color: #dfdbdfad;
+	border: 2px solid transparent;
+	border-radius: 0.5rem;
+}
+
+/* home-items include career vision and journey so far, 
+personality tags, languages and hobbies  */
 .home-items:hover {
 	background-color: #dfdbdfad;
 	border-radius: 1rem;
@@ -55,7 +78,8 @@ nav > div > a {
 	font-size: 0.78rem;
 }
 
-/*Zoom out animation for icons in personal data, personality and hobbies sections */
+/*Zoom out animation for icons in personal data,
+personality subsection,hobbies sections and skills section */
 .icons:hover {
 	-ms-transform: scale(1.3); /* IE 9 */
 	-webkit-transform: scale(1.3); /* Safari 3-8 */
@@ -73,7 +97,6 @@ nav > div > a {
 /* Education */
 div.education-items {
 	border: 0px;
-	border-radius: 1rem;
 }
 
 div.education-items:hover {
@@ -82,33 +105,21 @@ div.education-items:hover {
 }
 
 /* Experience */
-/* Example 2 */
+/* Medium screens and above */
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
 	background-color: #dfdbdfad;
 	border-radius: 1rem;
 }
-
-/* Example 1 */
-div.experience-items {
-	border: 0px;
-	/* border-radius: 1rem; */
-	/* transition: transform 1s, filter 1s ease-in-out;
-	filter: blur(4px);
-	transform: scale(1); */
-}
-
-/* div.experience-items:hover {
+/* small and extra small screens */
+.experience-items-xs-sm:hover {
 	background-color: #dfdbdfad;
 	border-radius: 1rem;
-	filter: blur(0);
-	transform: scale(1.02);
-} */
+}
 
 /* Skills */
 div.skill-items {
 	border: 0px;
-	border-radius: 1rem;
 }
 
 div.skill-items:hover {
@@ -118,7 +129,6 @@ div.skill-items:hover {
 /* Projects */
 div.project-items {
 	border: 0px;
-	border-radius: 1rem;
 }
 
 div.project-items:hover {
@@ -129,7 +139,6 @@ div.project-items:hover {
 /* Projects */
 div.achievement-section {
 	border: 0px;
-	border-radius: 1rem;
 }
 
 div.achievement-section:hover {

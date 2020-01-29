@@ -28,7 +28,7 @@
   <body>
     <div class="m-2 row container mx-auto justify-content-around p-0 mt-3">
       <!-- Personal Data -->
-        <div class="rounded personalData-shadow px-0 mx-auto mt-md-5 col-md-3 align-self-start">
+      <div class="rounded personalData-shadow px-0 mx-auto mt-md-1 mb-2 col-md-3 align-self-start">
           <!-- Item 1 -->
             <div class="m-2 d-flex justify-content-center">
                 <img src="Linkedin profile pic.jpg" class="rounded-circle mx-auto img-fluid img-shadow img-colorize" alt="Responsive image">
@@ -64,24 +64,37 @@
                 </div>
               </div>
             <!-- End of Item 2 -->
-          </div>
+      </div>
           <!-- End of Personal Data -->
+        
 
           <div class="col-md-9 mx-auto m-1 px-0 px-md-4 align-self-start">
-            <nav>
-              <div class="nav nav-tabs justify-content-around" id="nav-tab" role="tablist">
-                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
-                <a class="nav-item nav-link" id="nav-experience-tab" data-toggle="tab" href="#nav-experience" role="tab" aria-controls="nav-experience" aria-selected="false">Experience</a>
-                <a class="nav-item nav-link" id="nav-education-tab" data-toggle="tab" href="#nav-education" role="tab" aria-controls="nav-education" aria-selected="false">Education</a>
-                <a class="nav-item nav-link" id="nav-skills-tab" data-toggle="tab" href="#nav-skills" role="tab" aria-controls="nav-skills" aria-selected="false">Skills</a>
-                <a class="nav-item nav-link" id="nav-projects-tab" data-toggle="tab" href="#nav-projects" role="tab" aria-controls="nav-projects" aria-selected="false">Projects</a>
-                <a class="nav-item nav-link" id="nav-achievements-tab" data-toggle="tab" href="#nav-achievements" role="tab" aria-controls="nav-achievements" aria-selected="false">Other Achievements</a>
+            <nav class="bg-white rounded shadow mx-auto">
+              <div class="nav nav-tabs justify-content-center row main-nav" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link main-nav-icons active  col-2 d-flex align-self-start" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
+                    <img class="mx-auto" src="https://img.icons8.com/dotty/50/000000/guest-male.png" title="Home" alt="Account Icon by Icons8">
+                </a>
+                <a class="nav-item nav-link main-nav-icons col-2 d-flex align-self-start" id="nav-experience-tab" data-toggle="tab" href="#nav-experience" role="tab" aria-controls="nav-experience" aria-selected="false">
+                    <img class="mx-auto" src="https://img.icons8.com/dotty/50/000000/work.png" title="Experience" alt="work Icon by Icons8">
+                </a>
+                <a class="nav-item nav-link main-nav-icons col-2 d-flex align-self-start" id="nav-education-tab" data-toggle="tab" href="#nav-education" role="tab" aria-controls="nav-education" aria-selected="false">
+                    <img class="mx-auto" src="https://img.icons8.com/dotty/50/000000/graduation-cap.png" title="Education" alt="HTML 5 Icon by Icons8">
+                </a>
+                <a class="nav-item nav-link main-nav-icons col-2 d-flex align-self-start" id="nav-skills-tab" data-toggle="tab" href="#nav-skills" role="tab" aria-controls="nav-skills" aria-selected="false">
+                    <img class="mx-auto" src="https://img.icons8.com/dotty/50/000000/parse-from-clipboard.png" title="Skills" alt="CV Icon by Icons8">
+                </a>
+                <a class="nav-item nav-link main-nav-icons col-2 d-flex align-self-start" id="nav-projects-tab" data-toggle="tab" href="#nav-projects" role="tab" aria-controls="nav-projects" aria-selected="false">
+                    <img class="mx-auto" src="https://img.icons8.com/dotty/50/000000/personal-growth.png" title="Projects" alt="personal growth Icon by Icons8">
+                </a>
+                <a class="nav-item nav-link main-nav-icons col-2 d-flex align-self-start" id="nav-achievements-tab" data-toggle="tab" href="#nav-achievements" role="tab" aria-controls="nav-achievements" aria-selected="false">
+                    <img class="mx-auto" img src="https://img.icons8.com/dotty/50/000000/olympic-medal-silver.png" title="Other Achievements" alt="Silver medal Icon by Icons8">
+                </a>
               </div>
             </nav>
-            <div class="tab-content" id="nav-tabContent">
 
+            <div class="tab-content" id="nav-tabContent">
               <!-- Home -->
-              <div class="tab-pane fade show active rounded p-2 m-2 col-md-12 shadow" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+              <div class="tab-pane fade show active rounded p-2 mt-2 mx-0 shadow" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                 <div class="home-items p-2">
                 <h5 class="my-2 text-center">Career vision and journey so far...</h5>
                   <div class="mx-auto mb-2">
@@ -153,7 +166,7 @@
               <!-- End of Home section -->
 
               <!-- Education -->
-              <div class="tab-pane fade rounded p-2 m-2 col-md-12 shadow" id="nav-education" role="tabpanel" aria-labelledby="nav-education-tab">
+              <div class="tab-pane fade rounded p-2 mt-2 mx-0 shadow" id="nav-education" role="tabpanel" aria-labelledby="nav-education-tab">
                 <div class="row justify-content-between mx-auto p-2">
                   <div class="card education-items">
                     <div class="card-body">
@@ -181,10 +194,10 @@
               </div>
 
               <!-- Experience -->
-              <div class="tab-pane fade rounded p-2 m-2 " id="nav-experience" role="tabpanel" aria-labelledby="nav-experience-tab">
+          <div class="tab-pane fade rounded p-2 mt-2 mx-0" id="nav-experience" role="tabpanel" aria-labelledby="nav-experience-tab">
 
-               <div class="row mx-auto p-2 align-self-start">
-                <div class="nav flex-column nav-pills col-4" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+               <div class="row mx-auto p-2">
+                <div class="nav flex-column nav-pills col-3 d-none d-md-block" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                   <a class="nav-link active text-info" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
                     aria-controls="v-pills-home" aria-selected="true">Production specialist</a>
                   <a class="nav-link text-info" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
@@ -195,10 +208,9 @@
                     aria-controls="v-pills-settings" aria-selected="false">English teacher/Team leader</a>
                 </div>
 
-                <div class="tab-content col-8" id="v-pills-tabContent">
+                <div class="tab-content col-8 d-none d-md-block" id="v-pills-tabContent">
                   <div class="tab-pane fade show active align-self-start" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                    <div class="card experience-items">
-                      <div class="card-body">
+                      <div class="card-body px-0">
                       <h6 class="card-title">Production specialist at <a href="https://swappie.com/en/">Swappie</a>, Helsinki, Finland</h6>
                       <h6 class="card-subtitle mb-2 text-muted">Aug. 2019 - Nov. 2019</h6>
                       <ul>
@@ -208,17 +220,16 @@
                         <li>Media: 'This is Swappie' video on 
                           <a href="https://www.youtube.com/watch?v=WFl560Ij-IQ&feature=youtu.be">Youtube</a></li>
                       </ul>
-                    </div>
-                    </div>
+                      </div>
                   </div>
                   <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                    <div class="card-body">
-                      <h6 class="card-title">Customer Support Engineer at <a href="https://www.crossover.com">Crossover</a> , Texas,
+                    <div class="card-body px-0">
+                      <h6 class="card-title">Customer Support Engineer at <a href="https://www.crossover.com">Crossover</a>, Texas,
                         USA.(Remote)</h6>
                       <h6 class="card-subtitle mb-2 text-muted">Sept. 2018 - April. 2019</h6>
-                      <p>My responsibilities included</p>
+                      <p>My responsibilities included</p>     
                       <ul>
-                        <li>Providing technical support for various products and technologies <br> by solving issues reported by
+                        <li>Providing technical support for various products and technologies by solving issues reported by
                           customers in
                           our ticketing system (Zendesk, SalesForce, JIRA)</li>
                         <li>Conducting remote/troubleshooting sessions with customers.</li>
@@ -229,65 +240,117 @@
                     </div>
                   </div>
                   <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                  <div class="card-body">
-                    <h6 class="card-title">Editor and translator (Remote) at <a href="https://en.als.ltd/about">Abbyy Language
+                    <div class="card-body px-0">
+                      <h6 class="card-title">Editor and translator (Remote) at <a href="https://en.als.ltd/about">Abbyy Language
                         Services</a>, Moscow, Russia (Remote)</h6>
-                    <h6 class="card-subtitle mb-2 text-muted">July 2017 - Sept. 2017</h6>
-                    <p>My responsibilities included:</p>
-                    <p>Editing and translation of documents of all kinds <br> including advertisements, contracts, theses, articles and
-                      books <br>(Russian-to-English Editing and Translation).</p>
-                  </div>
+                      <h6 class="card-subtitle mb-2 text-muted">July 2017 - Sept. 2017</h6>
+                      <p>My responsibilities included:</p>
+                      <p>Editing and translation of documents of all kinds including advertisements, contracts, theses, articles and
+                      books (Russian-to-English Editing and Translation).</p>
+                    </div>
                   </div>
                   <div class="tab-pane fade"  id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                    <div class="card-body">
+                    <div class="card-body px-0">
                       <h6 class="card-title">English teacher at 3 Institutions, St. Petersburg, Russia</h6>
                       <p>Check out this <a href="https://criscrispy.github.io/my-english-teaching-adventures-in-pictures/">gallery</a>
                         to see my English teaching adventures </p>
                       <h6 class="card-subtitle mb-2 text-muted">Oct. 2013 - May 2017</h6>
                       <p>My responsibilities included:</p>
-                      <p>English lessons for kids, teenagers and adults from Beginner to Upper-Intermediate levels. <br>
-                        Special lessons for Medical doctors, veterinary doctors and Programmers.Team Leader and <br>
+                      <p>English lessons for kids, teenagers and adults from Beginner to Upper-Intermediate levels.
+                        Special lessons for Medical doctors, veterinary doctors and Programmers.Team Leader and
                         English Teacher at Kids and Teenagers Camp.</p>
                     </div>
                   </div>
               </div>
               </div>
+
+           <!-- Show on small and extra-small screens only on experience section  -->
+           <div class="d-block d-md-none row justify-content-between m-1">
+              <div class="card-body p-2 experience-items-xs-sm">
+                <h6 class="card-title">Production specialist at <a href="https://swappie.com/en/">Swappie</a>, Helsinki, Finland
+                </h6>
+                <h6 class="card-subtitle mb-2 text-muted">Aug. 2019 - Nov. 2019</h6>
+                <ul>
+                  <li>Main responsibilities included different tasks at inbound, checking and outbound stations as well as
+                    repairing
+                    different iPhone models.</li>
+                  <li>Media: 'This is Swappie' video on
+                    <a href="https://www.youtube.com/watch?v=WFl560Ij-IQ&feature=youtu.be">Youtube</a></li>
+                </ul>
               </div>
 
+            <div class="card-body p-2 experience-items-xs-sm">
+              <h6 class="card-title">Customer Support Engineer at <a href="https://www.crossover.com">Crossover</a>, Texas,
+                USA.(Remote)</h6>
+              <h6 class="card-subtitle mb-2 text-muted">Sept. 2018 - April. 2019</h6>
+              <p>My responsibilities included</p>
+              <ul>
+                <li>Providing technical support for various products and technologies by solving issues reported by
+                  customers in
+                  our ticketing system (Zendesk, SalesForce, JIRA)</li>
+                <li>Conducting remote/troubleshooting sessions with customers.</li>
+                <li>Phone support(Aircall)</li>
+                <li>Log analyses</li>
+                <li>Knowledge management/Technical writing.</li>
+              </ul>
+            </div>
+
+            <div class="card-body p-2 experience-items-xs-sm">
+              <h6 class="card-title">Editor and translator (Remote) at <a href="https://en.als.ltd/about">Abbyy Language
+                  Services</a>, Moscow, Russia (Remote)</h6>
+              <h6 class="card-subtitle mb-2 text-muted">July 2017 - Sept. 2017</h6>
+              <p>My responsibilities included:</p>
+              <p>Editing and translation of documents of all kinds including advertisements, contracts, theses, articles and
+                books (Russian-to-English Editing and Translation).</p>
+            </div>
+
+            <div class="card-body p-2 experience-items-xs-sm">
+              <h6 class="card-title">English teacher at 3 Institutions, St. Petersburg, Russia</h6>
+              <p>Check out this <a href="https://criscrispy.github.io/my-english-teaching-adventures-in-pictures/">gallery</a>
+                to see my English teaching adventures </p>
+              <h6 class="card-subtitle mb-2 text-muted">Oct. 2013 - May 2017</h6>
+              <p>My responsibilities included:</p>
+              <p>English lessons for kids, teenagers and adults from Beginner to Upper-Intermediate levels.
+                Special lessons for Medical doctors, veterinary doctors and Programmers.Team Leader and
+                English Teacher at Kids and Teenagers Camp.</p>
+            </div>
+        </div>
+        </div>
+
               <!-- Skills -->
-            <div class="tab-pane fade rounded p-2 m-2 col-md-12 shadow" id="nav-skills" role="tabpanel" aria-labelledby="nav-skills-tab">
+            <div class="tab-pane fade rounded p-2 mt-2 mx-0 shadow" id="nav-skills" role="tabpanel" aria-labelledby="nav-skills-tab">
                 <div class="my-3 p-lg-2 skill-items">
                   <h6 class="text-center">Technical Support Skills</h6>
                   <div class="row text-center justify-content-center">
-                    <figure class="col-4 col-md-2">
+                    <figure class="col-3 col-md-2">
                       <img class="icons" src="https://img.icons8.com/wired/45/000000/admin-settings-male.png" alt="Admin settings male Icon by Icons8">
                       <figcaption>IT adminstration</figcaption>
                     </figure>
-                    <figure class="col-4 col-md-2">
+                    <figure class="col-3 col-md-2">
                       <img class="icons" src="https://img.icons8.com/wired/45/000000/online-support--v1.png" alt="Online support icon by icons8">
                       <figcaption>Customer support</figcaption>
                     </figure>
-                    <figure class="col-4 col-md-2">
+                    <figure class="col-3 col-md-2">
                       <img class="icons" src="https://img.icons8.com/wired/45/000000/office-365.png" alt="Office 365 icon by icons8">
                       <figcaption>Office 365</figcaption>
                     </figure>
-                    <figure class="col-4 col-md-2">
+                    <figure class="col-3 col-md-2">
                       <img class="icons" src="https://img.icons8.com/color/48/000000/azure-1.png" alt="Azure icon by icons8">
                       <figcaption>Cloud computing(Azure)</figcaption>
                     </figure>
-                    <figure class="col-4 col-md-2">
+                    <figure class="col-3 col-md-2">
                       <img class="icons" src="https://img.icons8.com/wired/45/000000/enterprise-resource-planning.png" alt="Enterprise resource planning icon by icons8">
                       <figcaption>ERP systems</figcaption>
                     </figure>
-                    <figure class="col-4 col-md-2">
+                    <figure class="col-3 col-md-2">
                       <img class="icons" src="https://img.icons8.com/wired/45/000000/hips.png" alt="Hips icon by icons8">
                       <figcaption>Malware detection</figcaption>
                     </figure>
-                    <figure class="col-4 col-md-2">
+                    <figure class="col-3 col-md-2">
                       <img class="icons" src="https://img.icons8.com/ios/45/000000/networking-manager.png" alt="Network configuration icon by icons8">
                       <figcaption>Network configuration</figcaption>
                     </figure> 
-                    <figure class="col-4 col-md-2">
+                    <figure class="col-3 col-md-2">
                       <img class="icons" src="https://img.icons8.com/ios/43/000000/phonelink-setup.png" alt="Hips icon by icons8">
                       <figcaption>Basic iphone repair</figcaption>
                     </figure>
@@ -297,16 +360,16 @@
                 <div class="my-3 p-lg-2 skill-items">
                   <h6 class="text-center">Programming / Web dev skills</h6>
                   <div class="row text-center justify-content-center">
-                    <figure class="col-4 col-md-2">
+                    <figure class="col-3 col-md-2">
                       <img class="icons" src="https://img.icons8.com/color/ios/50/000000/html-5.png" title="HTML" alt="HTML 5 Icon by Icons8">
                     </figure>
-                    <figure class="col-4 col-md-2">
+                    <figure class="col-3 col-md-2">
                       <img class="icons" src="https://img.icons8.com/color/ios/50/000000/css3.png" title="CSS" alt="CSS3 Icon by Icons8">
                     </figure>
-                    <figure class="col-4 col-md-2">
+                    <figure class="col-3 col-md-2">
                       <img class="icons" src="https://img.icons8.com/color/ios/50/000000/javascript.png" title="Javascript" alt="Javascript Icon by Icons8">
                     </figure>
-                    <figure class="col-4 col-md-2">
+                    <figure class="col-3 col-md-2">
                       <img class="icons" src="https://img.icons8.com/color/48/000000/bootstrap.png" title="Bootstrap" alt="Bootstrap Icon by Icons8">
                     </figure>
                   </div>
@@ -314,7 +377,7 @@
               </div>
 
               <!-- Projects -->
-            <div class="tab-pane fade rounded p-2 m-2 col-md-12 shadow" id="nav-projects" role="tabpanel" aria-labelledby="nav-projects-tab">
+            <div class="tab-pane fade rounded p-2 mt-2 mx-0 shadow" id="nav-projects" role="tabpanel" aria-labelledby="nav-projects-tab">
               <div class="my-3 p-lg-2 project-items">
                 <h5 class="text-center">Web development projects</h5>
                 <table class="table table-sm text-center">
@@ -340,7 +403,7 @@
            </div>
 
               <!-- Other Achievements -->
-            <div class="tab-pane fade rounded p-2 m-2 col-md-12 shadow" id="nav-achievements" role="tabpanel" aria-labelledby="nav-achievements-tab">
+            <div class="tab-pane fade rounded p-2 mt-2 mx-0 shadow" id="nav-achievements" role="tabpanel" aria-labelledby="nav-achievements-tab">
               <div class="my-3 p-lg-2 achievement-section">
                 <h5 class="text-center">Other Achievements</h5>
                   <table class="table table-sm">
