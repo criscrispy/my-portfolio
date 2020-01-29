@@ -47,16 +47,25 @@ body {
 }
 
 /* Remove background colour and border of 
-main navbar's anchor tags when active */
+	main navbar's anchor tags when active */
 .main-nav .nav-item.nav-link.active {
 	background-color: unset;
 	border: unset;
 }
 
 /* Remove background colour and border of main 
-navbar's anchor tags when active */
+	navbar's anchor tags when active */
 .main-nav .nav-link {
 	border: unset;
+}
+
+/* Set cursor to default for anchor tag */
+.main-nav > a:hover {
+	cursor: default;
+}
+/* Set cursor to pointer for image element */
+.main-nav > a > img:hover {
+	cursor: pointer;
 }
 
 /* Setting background colour around main navbar icons when active */
@@ -65,6 +74,7 @@ navbar's anchor tags when active */
 	border: 2px solid transparent;
 	border-radius: 0.5rem;
 }
+/*End of  Main nav styling for navbar and icons */
 
 /* home-items include career vision and journey so far, 
 personality tags, languages and hobbies  */
