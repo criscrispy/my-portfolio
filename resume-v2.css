@@ -4,6 +4,90 @@ body {
 	position: center;
 }
 
+/* ------------------------------------------- */
+/* .header contains the div >img.cover-img and div.title-typed */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	.header {
+		max-height: 35rem;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.header {
+		max-height: 40rem;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.header {
+		height: 93vh;
+		max-height: 55rem;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {
+	.header {
+		height: 80vh;
+		max-height: 55rem;
+	}
+} */
+
+.title-typed > h1 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	/* margin-bottom: 10px; */
+	text-transform: uppercase;
+	color: rgb(0, 0, 0);
+}
+
+.cover-img {
+	height: 420px;
+	width: 280px;
+	border-radius: 0.7rem;
+	position: right;
+	/* Neomorphism */
+	box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 1), 12px 12px 12px 0 rgba(0, 0, 0, .6);
+	transition: opacity 800ms ease;
+}
+
+.cover-img:hover {
+	opacity: 0.9;
+}
+/* End of header section */
+/* ----------------------------------------------- */
+
+/* :horizontal-line */
+hr {
+	border-top: 3px double #333;
+	color: #333;
+	/* overflow: visible; */
+	text-align: center;
+	height: 5px;
+	/* width: 60rem; */
+}
+
+hr:after {
+	background: #fff;
+	content: '§';
+	/* padding: 0 4px; */
+	position: relative;
+	top: -13px;
+}
+
+/* End of horizontal-line */
+
+/* ----------------------------------------------- */
+/* Main-content section */
+.main-content {
+	height: 95vh;
+	max-height: 60rem;
+}
+
 /* Main content backround for home, experience, education */
 #nav-home,
 #nav-education,
@@ -17,13 +101,13 @@ body {
 /* Shadow around personal data div - Neomorphism */
 .personalData-shadow {
 	border-radius: 0.5em;
-	box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 1), 12px 12px 12px 0 rgba(0, 0, 0, .2);
+	box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 1), 12px 12px 12px 0 rgba(0, 0, 0, 0.4);
 }
 
 /* Shadow around image - Neomorphism */
 .img-shadow {
 	border-radius: 0.2em;
-	box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.8), 12px 12px 12px 0 rgba(0, 0, 0, .2);
+	box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.8), 12px 12px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Image colorize and zoom out on hover */
@@ -36,10 +120,7 @@ body {
 	transform: scale(1.02);
 } */
 
-/* .language-table td {
-	border-top: unset;
-} */
-
+/* ------------------------------------------------------------------ */
 /* Main nav styling for navbar and icons */
 /* Main nav border -- Removes line under main navbar */
 .main-nav {
@@ -75,6 +156,7 @@ body {
 	border-radius: 0.5rem;
 }
 /*End of  Main nav styling for navbar and icons */
+/* ------------------------------------------------------------------ */
 
 /* home-items include career vision and journey so far, 
 personality tags, languages and hobbies  */
@@ -157,3 +239,5 @@ div.achievement-section:hover {
 	background-color: #dfdbdfad;
 	border-radius: 1rem;
 }
+/* End of Main-content section */
+/* ----------------------------------------------- */
