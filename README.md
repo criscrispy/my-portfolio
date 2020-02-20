@@ -2,13 +2,14 @@
 Simple resume (version 2) - New and improved !!
 (Though complete, other changes will be added in the near future)
 Github page : https://criscrispy.github.io/simple-resume-v2/
+HTML / CSS / Javascript / Bootstrap 4 / Jquery / Typed.js
 
 ## Description
 This second version aims to maximize the use of navigation, 
 icons and categorization to present info in simple but intuitive way, 
 thus preventing unneccessary scolling. 
 
-Modern design ideas like Neumorphism for the profile picture/personal data 
+Modern design ideas like Neumorphism for the  Header/profile pictures and personal data 
 section was applied in this project. 
 
 ### Extra info
