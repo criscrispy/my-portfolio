@@ -24,7 +24,7 @@ body {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 	.header {
-		height: 90vh;
+		height: 93vh;
 		max-height: 55rem;
 	}
 }
@@ -80,11 +80,15 @@ hr:after {
 /* ----------------------------------------------- */
 /* Main-content section */
 .main-content {
-	height: 95vh;
+	height: 90vh;
 	max-height: 60rem;
 }
 
-/* Main content backround for home, experience, education */
+#main-nav {
+	box-shadow: 12px 12px 12px 0 rgba(0, 0, 0, .3);
+}
+
+/* Main-nav content (home, experience, education, skills, projects, achievements) */
 #nav-home,
 #nav-education,
 #nav-experience,
@@ -92,6 +96,7 @@ hr:after {
 #nav-projects,
 #nav-achievements {
 	background-color: white;
+	box-shadow: 12px 12px 12px 0 rgba(0, 0, 0, .3);
 }
 
 /* Shadow around personal data div - Neomorphism */
