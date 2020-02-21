@@ -7,7 +7,8 @@ HTML / CSS / Javascript / Bootstrap 4 / Jquery / Typed.js
 ## Description
 This second version aims to maximize the use of navigation, 
 icons and categorization to present info in simple but intuitive way, 
-thus preventing unneccessary scolling. 
+thus preventing unneccessary scolling. Just like the first version, it looks great no
+matter the screen size.
 
 Modern design ideas like Neumorphism for the  Header/profile pictures and personal data 
 section was applied in this project. 
