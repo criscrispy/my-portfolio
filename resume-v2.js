@@ -15,6 +15,25 @@ $(document).ready(function () {
     });
 });
 
+// ================================================== //
+
+// ================================================== //
+// Spinner
+// ================================================== //
+
+$(document).ready(function () {
+    //Preloader
+    preloaderFadeOutTime = 2000;
+    function hidePreloader() {
+        var preloader = $('.spinner-wrapper');
+        preloader.fadeOut(preloaderFadeOutTime);
+    }
+    hidePreloader();
+});
+
+// ================================================== //
+
+
 // We listen to the resize event
 // window.addEventListener('resize', () => {
 //     // We execute the same script as before
