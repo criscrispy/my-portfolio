@@ -15,7 +15,7 @@ section was applied in this project.
 
 ### Extra info
 This is an upgraded version of the simple resume I built earlier.\
-To view a demo example on Github page, **[click here](https://criscrispy.github.io/simple-resume/)**\ 
+To view a demo example on Github page, **[click here](https://criscrispy.github.io/simple-resume/)**
 
 These mini projects were inspired by LinkedIn profile page.\
 The projects optimize the use of space on a webpage with the implementation of cards,  
