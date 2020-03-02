@@ -228,6 +228,10 @@ personality tags, languages and hobbies  */
 	font-size: 0.78rem;
 }
 
+/* .crossover-product-description-sm-xs.show-title-sm-xs:after {
+	content: attr(title);
+} */
+
 /*Zoom out animation for icons in personal data,
 personality subsection,hobbies sections and skills section */
 .icons:hover {

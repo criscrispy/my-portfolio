@@ -34,9 +34,25 @@ $(document).ready(function () {
 // ================================================== //
 
 
-// We listen to the resize event
-// window.addEventListener('resize', () => {
-//     // We execute the same script as before
-//     let vh = window.innerHeight * 0.01;
-//     document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+
+// ================================================== //
+// Show description of crossover products on small and extra small screens
+// ================================================== //
+
+// Example 1
+// $(document).ready(function () {
+
+//     $('.crossover-product-description-sm-xs').click(function () {
+
+//         $(this).toggleClass('show-title-sm-xs');
+//     });
 // });
+
+// Example 2
+$(function () {
+    $('[data-toggle="crossover-product-description-sm-xs"]').tooltip()
+})
+
+
+// ================================================== //
