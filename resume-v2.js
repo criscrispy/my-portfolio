@@ -9,7 +9,7 @@ $(document).ready(function () {
     $(function () {
         typed.typed({
             strings: ["Christian Addy.", "a Customer support engineer.", "an IT administrator.", "an aspiring Frontend developer.",],
-            typeSpeed: 100,
+            typeSpeed: 40,
             loop: true,
         });
     });
