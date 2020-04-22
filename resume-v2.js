@@ -8,9 +8,18 @@ $(document).ready(function () {
 
     $(function () {
         typed.typed({
-            strings: ["Christian Addy.", "a Customer support engineer.", "an IT administrator.", "an aspiring Frontend developer.",],
-            typeSpeed: 40,
-            loop: true,
+            strings: ["My name is Christian Addy",
+                "but just call me Chris.",
+                "I'm a Customer support engineer",
+                " and an IT administrator.",
+                "I aspire to be a Frontend developer.",
+                "I love to build projects",
+                "and explore different technologies.",
+                "Discover some of these projects below.",
+                "Thanks for stopping by",
+                "and looking forward to hearing from you :) ",],
+            typeSpeed: 50,
+            loop: false,
         });
     });
 });
@@ -23,13 +32,27 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     //Preloader
-    preloaderFadeOutTime = 1400;
+    preloaderFadeOutTime = 1500;
+
     function hidePreloader() {
         var preloader = $('.spinner-wrapper');
+
         preloader.fadeOut(preloaderFadeOutTime);
     }
     hidePreloader();
 });
+
+// $(document).ready(function () {
+//     Preloader
+//     FadeTime = 8000;
+//     function showMainProfileImage() {
+//         var mainProfilepic = $('.cover-img');
+
+//         mainProfilepic.fadeIn(FadeTime);
+//     }
+//     showMainProfileImage();
+// });
+
 
 // ================================================== //
 
