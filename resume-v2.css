@@ -10,24 +10,25 @@ body {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 	.header {
-		max-height: 35rem;
+		height: 35rem;
 	}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	.header {
-		max-height: 40rem;
+		height: 38rem;
 	}
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 	.header {
-		height: 93vh;
-		max-height: 55rem;
+		/* height: 70vh; */
+		height: 42rem;
 	}
 }
+
 /* ------------------------ */
 /* Typed CSS */
 .typed-box {
@@ -41,7 +42,14 @@ body {
 	border-radius: 10px;
 	background-color: rgba(0, 0, 0, .85);
 	color: rgb(255, 255, 255);
-	font-size: 1.3rem;
+	font-size: 1.5rem;
+}
+
+@media (min-width: 992px) {
+	.typed-box {
+		min-height: 120px;
+		font-size: 1.6rem;
+	}
 }
 
 span.typed {
@@ -54,6 +62,12 @@ span.typed {
 	color: rgb(255, 255, 255);
 	/* text-shadow: -2px 0px 0px #6b6b6b; */
 	font-family: monospace;
+}
+
+@media (min-width: 992px) {
+	span.typed {
+		font-size: 1.6rem;
+	}
 }
 
 .typed-cursor {
@@ -201,12 +215,24 @@ span.typed {
 /* -------------------------------------- */
 
 .cover-img {
-	height: 420px;
 	width: 280px;
 	border-radius: 0.7rem;
-	position: right;
+	/* position: right; */
 	/* Neomorphism */
 	box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 1), 12px 12px 12px 0 rgba(0, 0, 0, .6);
+}
+
+@media (min-width: 768px) {
+	.cover-img {
+		width: 300px;
+	}
+}
+
+@media (min-width: 992px) {
+	.cover-img {
+		/* height: 480px; */
+		width: 340px;
+	}
 }
 
 /* End of header section */
@@ -216,16 +242,13 @@ span.typed {
 hr {
 	border-top: 3px double #333;
 	color: #333;
-	/* overflow: visible; */
 	text-align: center;
 	height: 5px;
-	/* width: 60rem; */
 }
 
 hr:after {
 	background: #fff;
 	content: '§';
-	/* padding: 0 4px; */
 	position: relative;
 	top: -13px;
 }
@@ -234,9 +257,12 @@ hr:after {
 
 /* ----------------------------------------------- */
 /* Main-content section */
-.main-content {
-	height: 90vh;
-	max-height: 60rem;
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.main-content {
+		height: 44rem;
+	}
 }
 
 #main-nav {
@@ -255,7 +281,7 @@ hr:after {
 }
 
 /* Shadow around personal data div - Neomorphism */
-.personalData-shadow {
+.personalData {
 	border-radius: 0.5em;
 	box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 1), 12px 12px 12px 0 rgba(0, 0, 0, 0.4);
 }
