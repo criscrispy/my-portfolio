@@ -408,7 +408,7 @@ div.project-items {
 	border: 0px;
 }
 
-div.project-items:hover {
+div.project-items tr:hover {
 	background-color: #dfdbdfad;
 	border-radius: 1rem;
 }
@@ -418,7 +418,7 @@ div.achievement-section {
 	border: 0px;
 }
 
-div.achievement-section:hover {
+div.achievement-section tr:hover {
 	background-color: #dfdbdfad;
 	border-radius: 1rem;
 }
