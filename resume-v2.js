@@ -9,10 +9,10 @@ $(document).ready(function () {
     $(function () {
         typed.typed({
             strings: ["My name is Christian Addy",
-                "but just call me Chris.",
-                "I'm a Customer support engineer",
-                " and an IT administrator.",
-                "I aspire to be a Frontend developer.",
+                "but you can just call me Chris.",
+                "Formerly a Customer support engineer",
+                "and an IT administrator,",
+                "I now aspire to be a Frontend developer.",
                 "I love to build projects",
                 "and explore different technologies.",
                 "Discover some of these projects below.",
