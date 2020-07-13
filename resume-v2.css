@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+
 body {
 	background-color: #eeeeee;
 	font-size: 0.875rem;
@@ -27,6 +29,12 @@ body {
 		/* height: 70vh; */
 		height: 42rem;
 	}
+}
+
+.intro-title,
+.projects-title,
+.about-me-title {
+	font-family: 'Fondamento', cursive;
 }
 
 /* ------------------------ */
@@ -239,7 +247,7 @@ span.typed {
 /* ----------------------------------------------- */
 
 /* :horizontal-line */
-hr {
+/* hr {
 	border-top: 3px double #333;
 	color: #333;
 	text-align: center;
@@ -251,9 +259,43 @@ hr:after {
 	content: '§';
 	position: relative;
 	top: -13px;
-}
+} */
 
 /* End of horizontal-line */
+
+/* Projects */
+.projects {
+	background: gainsboro;
+	border-radius: 15px;
+	padding: 15px;
+	box-shadow: 6px 6px 5px 0 rgba(0, 0, 0, 0.4);
+}
+
+.projects .card {
+	-ms-transform: scale(1); /* IE 9 */
+	-webkit-transform: scale(1); /* Safari 3-8 */
+	transform: scale(1);
+	transition: transform .5s ease-out;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1), 0 3px 15px 0 rgba(0, 0, 0, 0.11);
+}
+
+.projects .card:hover {
+	-ms-transform: scale(1.01); /* IE 9 */
+	-webkit-transform: scale(1.01); /* Safari 3-8 */
+	transform: scale(1.01);
+	transition: transform .5s ease-in-out;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.projects > .card > .card-img-top {
+	position: absolute;
+	z-index: 1;
+}
+
+div.project-links a:hover {
+	background-color: rgba(0, 128, 128, 0.3);
+	color: black;
+}
 
 /* ----------------------------------------------- */
 /* Main-content section */
@@ -274,16 +316,27 @@ hr:after {
 #nav-education,
 #nav-experience,
 #nav-skills,
-#nav-projects,
 #nav-achievements {
 	background-color: white;
 	box-shadow: 12px 12px 12px 0 rgba(0, 0, 0, .3);
 }
 
-/* Shadow around personal data div - Neomorphism */
+/* Shadow around personal data div - Without Neomorphism */
 .personalData {
 	border-radius: 0.5em;
-	box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 1), 12px 12px 12px 0 rgba(0, 0, 0, 0.4);
+	box-shadow: 12px 12px 12px 0 rgba(0, 0, 0, 0.4);
+	border-top: 1px solid rgba(0, 0, 0, .125);
+	border-left: 1px solid rgba(0, 0, 0, .125);
+}
+
+/* Shadow around personal data div - With Neomorphism */
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.personalData {
+		box-shadow: -4px -4px 6px 0 rgba(255, 255, 255, 1), 4px 4px 9px 0 rgba(0, 0, 0, 0.4);
+		border-top: 0px;
+		border-left: 0px;
+	}
 }
 
 /* Shadow around image - Neomorphism */
@@ -342,20 +395,18 @@ personality tags, languages and hobbies  */
 	font-size: 0.78rem;
 }
 
-/* .crossover-product-description-sm-xs.show-title-sm-xs:after {
-	content: attr(title);
-} */
-
 /*Zoom out animation for icons in personal data,
-personality subsection,hobbies sections and skills section */
-.icons:hover {
+personality section,hobbies sections and skills section */
+.personal-data-icons:hover,
+.skills-icons:hover {
 	-ms-transform: scale(1.3); /* IE 9 */
 	-webkit-transform: scale(1.3); /* Safari 3-8 */
 	transform: scale(1.3);
 	transition: transform .5s ease-in-out;
 }
 
-.icons {
+.personal-data-icons,
+.skills-icons {
 	-ms-transform: scale(1); /* IE 9 */
 	-webkit-transform: scale(1); /* Safari 3-8 */
 	transform: scale(1);
@@ -403,17 +454,8 @@ div.skill-items:hover {
 	background-color: #dfdbdfad;
 	border-radius: 1rem;
 }
-/* Projects */
-div.project-items {
-	border: 0px;
-}
 
-div.project-items tr:hover {
-	background-color: #dfdbdfad;
-	border-radius: 1rem;
-}
-
-/* Projects */
+/*Achievements */
 div.achievement-section {
 	border: 0px;
 }
