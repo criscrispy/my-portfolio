@@ -268,19 +268,11 @@ hr:after {
 	background: gainsboro;
 	border-radius: 15px;
 	padding: 15px;
-	box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.4), 0px 4px 5px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.3), -2px -2px 4px 0 rgba(0, 0, 0, 0.3);
 	-ms-transform: scale(1); /* IE 9 */
 	-webkit-transform: scale(1); /* Safari 3-8 */
 	transform: scale(1);
 	transition: transform .5s ease-out;
-}
-
-.projects:hover {
-	-ms-transform: scale(1.001); /* IE 9 */
-	-webkit-transform: scale(1.001); /* Safari 3-8 */
-	transform: scale(1.001);
-	transition: transform .3s ease-in-out;
-	box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.4), 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .projects .card {
