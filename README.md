@@ -1,5 +1,5 @@
 # Project : simple-resume-v2
-Simple resume (version 2) - New and improved !!\
+Simple resume (version 2) / Portfolio - New and improved !!\
 (Though complete, More projects will be added in the near future)\
 To view a demo example on Github page, **[click here](https://criscrispy.github.io/simple-resume-v2/)**\
 HTML / CSS / Javascript / Bootstrap 4 / Jquery / Typed.js
