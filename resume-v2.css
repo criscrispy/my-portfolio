@@ -8,10 +8,17 @@ body {
 
 /* ------------------------------------------- */
 /* .header contains the div >img.cover-img and div.title-typed */
+.header {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	margin-top: 0.8rem;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 	.header {
+		margin-left: 0.8rem;
+		margin-right: 0.8rem;
 		height: 35rem;
 	}
 }
@@ -26,12 +33,10 @@ body {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 	.header {
-		/* height: 70vh; */
-		height: 42rem;
+		height: 48rem;
 	}
 }
 
-.intro-title,
 .projects-title,
 .about-me-title {
 	font-family: 'Fondamento', cursive;
