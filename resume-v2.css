@@ -270,7 +270,8 @@ hr:after {
 
 /* Projects */
 .projects {
-	background: gainsboro;
+	background-color: rgba(220, 220, 220, 0.8); /* gainsboro */
+	/* background: gainsboro; */
 	border-radius: 15px;
 	padding: 15px;
 	box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.3), -2px -4px 4px 0 rgba(0, 0, 0, 0.3);
@@ -347,7 +348,7 @@ div.project-links a:hover {
 /* Shadow around image - Neomorphism */
 .img-shadow {
 	border-radius: 0.2em;
-	box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.8), 12px 12px 12px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: -4px -4px 4px 0 rgba(255, 255, 255, 0.8), 6px 6px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* ------------------------------------------------------------------ */
