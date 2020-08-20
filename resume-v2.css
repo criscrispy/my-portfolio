@@ -7,6 +7,7 @@ body {
 }
 
 /* ------------------------------------------- */
+/* HEADER SECTION */
 /* .header contains the div >img.cover-img and div.title-typed */
 .header {
 	margin-top: 0.8rem;
@@ -234,7 +235,7 @@ span.typed {
 /* End of header section */
 /* ----------------------------------------------- */
 
-/* Projects */
+/* PROJECTS SECTION */
 .projects {
 	background-color: rgba(220, 220, 220, 0.8); /* gainsboro */
 	/* background: gainsboro; */
@@ -269,7 +270,7 @@ div.project-links a:hover {
 }
 
 /* ----------------------------------------------- */
-/* Main-content section */
+/* MAIN CONTENT SECTION */
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -354,20 +355,19 @@ div.project-links a:hover {
 /*End of  Main nav styling for navbar and icons */
 /* ------------------------------------------------------------------ */
 
-/* home-items include career vision and journey so far, 
-personality tags, languages and hobbies  */
-.home-items:hover {
-	background-color: #dfdbdfad;
-	border-radius: 1rem;
-	max-width: inherit;
+/* PERSONAL DATA - LINKEDIN IMAGE AND PERSONAL DATA */
+/* card-body for Name, Nationality, Loacation,  Date of birth */
+.personalData .card-body {
+	padding: 0.5rem;
 }
 
-.home-items figcaption {
-	font-size: 0.78rem;
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.personalData .card-body {
+		padding: 1.25rem;
+	}
 }
 
-/*Zoom out animation for icons in personal data,
-personality section,hobbies sections and skills section */
 .personal-data-icons:hover,
 .skills-icons:hover {
 	-ms-transform: scale(1.3); /* IE 9 */
@@ -384,17 +384,18 @@ personality section,hobbies sections and skills section */
 	transition: transform .5s ease-out;
 }
 
-/* Education and Volunteering items */
-div.education-items {
-	border: 0px;
-}
-
-div.education-items:hover {
+/* HOME */
+.home-items:hover {
 	background-color: #dfdbdfad;
 	border-radius: 1rem;
+	max-width: inherit;
 }
 
-/* Work and Volunteering Experience */
+.home-items figcaption {
+	font-size: 0.78rem;
+}
+
+/* WORK AND VOLUNTEERING EXPERIENCE */
 /* Medium screens and above */
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -416,7 +417,17 @@ hench scrollable. for eg. work at crossover */
 	border-radius: 1rem;
 }
 
-/* Skills */
+/* EDUCATION */
+div.education-items {
+	border: 0px;
+}
+
+div.education-items:hover {
+	background-color: #dfdbdfad;
+	border-radius: 1rem;
+}
+
+/* SKILLS */
 div.skill-items {
 	border: 0px;
 }
@@ -426,7 +437,7 @@ div.skill-items:hover {
 	border-radius: 1rem;
 }
 
-/*Achievements */
+/*ACHIEVEMENTS */
 div.achievement-section {
 	border: 0px;
 }
