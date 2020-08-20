@@ -13,8 +13,8 @@ body {
 	height: 35rem;
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
 	.header {
 		min-height: 100vh;
 	}
@@ -234,23 +234,6 @@ span.typed {
 /* End of header section */
 /* ----------------------------------------------- */
 
-/* :horizontal-line */
-/* hr {
-	border-top: 3px double #333;
-	color: #333;
-	text-align: center;
-	height: 5px;
-}
-
-hr:after {
-	background: #fff;
-	content: '§';
-	position: relative;
-	top: -13px;
-} */
-
-/* End of horizontal-line */
-
 /* Projects */
 .projects {
 	background-color: rgba(220, 220, 220, 0.8); /* gainsboro */
@@ -274,11 +257,6 @@ hr:after {
 	transform: scale(1.01);
 	transition: transform .5s ease-in-out;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.projects > .card > .card-img-top {
-	position: absolute;
-	z-index: 1;
 }
 
 div.project-links a:hover {
