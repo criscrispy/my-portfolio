@@ -9,7 +9,7 @@ $(document).ready(function() {
 	$(function() {
 		typed.typed({
 			strings    : [
-				'My name is Christian Addy ^1000',
+				'My name is Christian Addy',
 				'but you can just call me Chris.',
 				'Having worked as Customer support engineer',
 				'and an IT administrator,',
