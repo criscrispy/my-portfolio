@@ -297,6 +297,7 @@ div.project-links a:hover {
 	box-shadow: -1px -1px 6px 0 rgba(0, 0, 0, 0.4), 12px 12px 12px 0 rgba(0, 0, 0, 0.4);
 	border-top: 1px solid rgba(0, 0, 0, .125);
 	border-left: 1px solid rgba(0, 0, 0, .125);
+	background-color: rgb(255 255 255 / 30%);
 }
 
 /* Shadow around personal data div - With Neomorphism */
