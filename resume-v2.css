@@ -209,7 +209,7 @@ span.typed {
 /* -------------------------------------- */
 
 .cover-img {
-	content: url("Resume-pic-1.jpg");
+	/* content: url("Resume-pic-1.jpg"); */
 	width: 280px;
 	border-radius: 0.7rem;
 	/* position: right; */
