@@ -282,6 +282,9 @@ span.typed {
 	color: white;
 }
 
+.projects .card-body .card-title {
+	text-align: center;
+}
 /* ----------------------------------------------- */
 /* MAIN CONTENT SECTION */
 
