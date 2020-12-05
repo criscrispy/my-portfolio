@@ -243,18 +243,23 @@ span.typed {
 }
 
 .projects .card {
-	-ms-transform: scale(1); /* IE 9 */
-	-webkit-transform: scale(1); /* Safari 3-8 */
-	transform: scale(1);
-	transition: transform .5s ease-out;
+	/* IE 9 */
+	/* -ms-transform: scale(1); */
+	/* Safari 3-8 */
+	/* -webkit-transform: scale(1);  */
+	/* transform: scale(1); */
+	transition: transform .55s ease-out;
 	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1), 0 3px 15px 0 rgba(0, 0, 0, 0.11);
 }
 
 .projects .card:hover {
-	-ms-transform: scale(1.01); /* IE 9 */
-	-webkit-transform: scale(1.01); /* Safari 3-8 */
-	transform: scale(1.01);
-	transition: transform .5s ease-in-out;
+	/* IE 9 */
+	/* -ms-transform: scale(1.05); */
+	/* Safari 3-8 */
+	/* -webkit-transform: scale(1.05);  */
+	/* transform: scale(1.05); */
+	transform: translate(0px, -5px);
+	transition: transform .3s ease-in-out;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
