@@ -267,9 +267,19 @@ span.typed {
 	padding: 0.5rem;
 }
 
-div.project-links a:hover {
-	background-color: rgba(0, 128, 128, 0.3);
+.project-links a {
+	text-decoration: none;
 	color: black;
+	padding: 5px 10px;
+	border: solid 2px rgba(0, 0, 0, .85);
+	/* border-radius: 20px; */
+	transition: 0.4s;
+	z-index: 1;
+}
+
+.project-links a:hover {
+	background: rgba(26, 25, 25, 0.719);
+	color: white;
 }
 
 /* ----------------------------------------------- */
