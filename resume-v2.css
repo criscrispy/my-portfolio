@@ -267,26 +267,37 @@ span.typed {
 	padding: 0.5rem;
 }
 
+.projects .card-body .card-title {
+	text-align: center;
+}
+
 .project-links a {
 	text-decoration: none;
 	color: black;
 	padding: 5px 10px;
-	border: solid 2px rgba(0, 0, 0, .85);
-	/* border-radius: 20px; */
 	transition: 0.4s;
 	z-index: 1;
 }
-
-.project-links a:hover {
-	background: rgba(26, 25, 25, 0.719);
-	color: white;
+/* #demo and #repo links styles */
+#demo {
+	border: solid 2px #5cd0e2;
+	background-color: #5cd0e2;
 }
 
-.projects .card-body .card-title {
-	text-align: center;
+#demo:hover {
+	filter: brightness(1.1);
 }
+
+#repo {
+	border: solid 2px #88cfda;
+}
+
+#repo:hover {
+	background-color: #88cfda;
+}
+
 /* ----------------------------------------------- */
-/* MAIN CONTENT SECTION */
+/* ABOUT ME SECTION */
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
