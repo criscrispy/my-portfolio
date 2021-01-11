@@ -285,7 +285,7 @@ span.typed {
 }
 
 #demo:hover {
-	filter: brightness(1.1);
+	filter: brightness(85%);
 }
 
 #repo {
