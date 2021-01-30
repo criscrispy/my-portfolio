@@ -296,6 +296,17 @@ span.typed {
 	background-color: #88cfda;
 }
 
+/* quote generator project */
+#forismatic-api-link {
+	color: #007bff;
+}
+
+#forismatic-api-link:hover {
+	text-decoration: none;
+	color: #5cd0e2;
+	filter: brightness(85%);
+}
+
 /* ----------------------------------------------- */
 /* ABOUT ME SECTION */
 
