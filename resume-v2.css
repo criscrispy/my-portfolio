@@ -225,7 +225,6 @@ span.typed {
 
 @media (min-width: 992px) {
 	.cover-img {
-		/* height: 480px; */
 		width: 340px;
 	}
 }
