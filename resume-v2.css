@@ -295,15 +295,22 @@ span.typed {
 	background-color: #88cfda;
 }
 
-/* quote generator project */
-#forismatic-api-link {
+/* quote generator project , just for fun project*/
+#forismatic-api-link,
+#jokes-api-link {
 	color: #007bff;
 }
 
-#forismatic-api-link:hover {
+#forismatic-api-link:hover,
+#jokes-api-link:hover {
 	text-decoration: none;
 	color: #5cd0e2;
 	filter: brightness(85%);
+}
+
+/* To do list project */
+.todo-dog-gif {
+	height: fit-content;
 }
 
 /* ----------------------------------------------- */
