@@ -476,7 +476,7 @@ span.typed {
 /* To allow the content to overflow and outside the set height 
 hench scrollable. for eg. work at crossover */
 #v-pills-tabContent {
-	max-height: 15rem;
+	max-height: 13rem;
 	overflow: auto;
 }
 
