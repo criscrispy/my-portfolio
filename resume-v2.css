@@ -480,6 +480,13 @@ hench scrollable. for eg. work at crossover */
 	overflow: auto;
 }
 
+/* To allow the content to overflow and outside the set height 
+hench scrollable. For work exp. jobs and volunteer exp. */
+.flex-column {
+	overflow: auto;
+	max-height: 16rem;
+}
+
 /* Work and colunteering experieence - small and extra small screens */
 .experience-items-xs-sm:hover,
 .volunteer-items-xs-sm:hover {
