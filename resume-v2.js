@@ -9,7 +9,7 @@ $(document).ready(function () {
 	$(function () {
 		typed.typed({
 			strings: [
-				'My name is Christian Addy',
+				'Hi there :)! My name is Christian Addy',
 				'but you can just call me Chris.',
 				'Having worked as Customer support engineer',
 				'and an IT administrator,',
@@ -21,10 +21,11 @@ $(document).ready(function () {
 				'and explore different technologies.',
 				'Check out these projects and more about me below.',
 				'Thanks for stopping by',
-				'and have a wonderful day :) '
+				'and have a wonderful day :) ^1500',
+				'Intro loop begins in 3^1000 2^1000 1^100'
 			],
-			typeSpeed: 50,
-			loop: false,
+			typeSpeed: 30,
+			loop: true,
 			startDelay: 200
 		});
 	});
