@@ -13,10 +13,10 @@ $(document).ready(function () {
 				'but you can just call me Chris.',
 				// 'I am a Frontend developer intern at Rens Original.',
 				'Building web projects in my free time',
-				'and explore different technologies...',
+				'and exploring different technologies...',
 				'are things I am most passionate about.',
 				'Check out these projects and more about me below.',
-				'Thanks for stopping by',
+				'Thank you for stopping by...',
 				'and have a wonderful day :) ^1500',
 				'Intro loop begins in 3^1000 2^1000 1^100'
 			],
