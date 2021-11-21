@@ -11,10 +11,10 @@ $(document).ready(function () {
 			strings: [
 				'Hi there :)! My name is Christian Addy',
 				'but you can just call me Chris.',
-				'I am a Frontend developer intern at Rens Original.',
-				'Building projects in my free time',
+				// 'I am a Frontend developer intern at Rens Original.',
+				'Building web projects in my free time',
 				'and explore different technologies...',
-				'is something I am passionate about.',
+				'are things I am most passionate about.',
 				'Check out these projects and more about me below.',
 				'Thanks for stopping by',
 				'and have a wonderful day :) ^1500',
