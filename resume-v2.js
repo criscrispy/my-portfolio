@@ -11,8 +11,10 @@ $(document).ready(function () {
 			strings: [
 				'Hi there :)! My name is Christian Addy',
 				'but you can just call me Chris.',
-				// 'I am a Frontend developer intern at Rens Original.',
-				'Building web projects in my free time',
+				'My IT work experience has been in 3 fields:',
+				'Customer Support, Frontend Developer and...',
+				'Integration Engineer roles.',
+				'Building web projects in my free time...',
 				'and exploring different technologies...',
 				'are things I am most passionate about.',
 				'Check out these projects and more about me below.',
