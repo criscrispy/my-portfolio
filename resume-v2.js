@@ -9,14 +9,14 @@ $(document).ready(function () {
 	$(function () {
 		typed.typed({
 			strings: [
-				'Hi there :)! My name is Christian Addy',
+				'Hi there :)!^700 My name is Christian Addy',
 				'but you can just call me Chris.',
-				'My IT work experience has been in 3 fields:',
+				'My IT work experience has been in 3 fields:^500',
 				'Customer Support, Frontend Developer and...',
-				'Integration Engineer roles.',
+				'Integration Engineer roles^500.',
 				'Building web projects in my free time...',
 				'and exploring different technologies...',
-				'are things I am most passionate about.',
+				'are things I am most passionate about^400.',
 				'Check out these projects and more about me below.',
 				'Thank you for stopping by...',
 				'and have a wonderful day :) ^1500',
